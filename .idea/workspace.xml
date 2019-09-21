@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="115cb973-ba8a-4626-9a83-05f865da378f" name="Default Changelist" comment="" />
+    <list default="true" id="115cb973-ba8a-4626-9a83-05f865da378f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School/sk/itsovy/school/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/sk/itsovy/school/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School/sk/itsovy/school/subjects/SlovakLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/sk/itsovy/school/subjects/SlovakLanguage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sk/itsovy/school/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/itsovy/school/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sk/itsovy/school/subjects/SlovakLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/itsovy/school/subjects/SlovakLanguage.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +27,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QuerYdPF9IlLwENo3AUKgxyK7F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -55,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OtherTest.isEur">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Test_Subjects" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sk.itsovy.school.tests.Test_Subjects" />
       <module name="School" />
@@ -180,6 +192,17 @@
       <updated>1568625107257</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/School$Test_Subjects.ic" NAME="Test_Subjects Coverage Results" MODIFIED="1568777791569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

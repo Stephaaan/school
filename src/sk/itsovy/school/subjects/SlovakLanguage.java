@@ -1,5 +1,11 @@
 package sk.itsovy.school.subjects;
 
+import java.nio.CharBuffer;
+import java.util.Arrays;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 public class SlovakLanguage extends Subject {
     public String formatText(String notFormatted){
         // prve pismeno velke, ostatne male, ak neni na konci interpunkcne tak pridat bodku
@@ -16,12 +22,18 @@ public class SlovakLanguage extends Subject {
     }
 
     public String encode(String toEncode){
-        return null;
+        char[] list = toEncode.toCharArray();
+        return CharBuffer
+                .wrap(toEncode.toCharArray())
+                .chars()
+                .map(i -> {
+                    return encodeChar((char)i);
+                 })
+                .mapToObj(i -> new String((char)i + ""))
+                .collect(Collectors.joining());
     }
     private char encodeChar(char c){
-        String bytes  = Integer.toBinaryString(c);
-        System.out.println(bytes);
-        return 'a';
+        return (char)(byte) (((byte) 240&c) >> 4 | ((byte) 15&c) << 4);
     }
 
 }
