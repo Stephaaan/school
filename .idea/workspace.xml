@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115cb973-ba8a-4626-9a83-05f865da378f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/School/sk/itsovy/school/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/sk/itsovy/school/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/School/sk/itsovy/school/subjects/SlovakLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/School/sk/itsovy/school/subjects/SlovakLanguage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sk/itsovy/school/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/itsovy/school/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sk/itsovy/school/subjects/SlovakLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/itsovy/school/subjects/SlovakLanguage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

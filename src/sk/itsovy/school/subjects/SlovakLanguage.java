@@ -26,10 +26,7 @@ public class SlovakLanguage extends Subject {
         return CharBuffer
                 .wrap(toEncode.toCharArray())
                 .chars()
-                .map(i -> {
-                    return encodeChar((char)i);
-                 })
-                .mapToObj(i -> new String((char)i + ""))
+                .mapToObj(i -> new String(encodeChar((char)i) + ""))
                 .collect(Collectors.joining());
     }
     private char encodeChar(char c){
